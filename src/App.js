@@ -66,7 +66,7 @@ function App() {
           transition={{ duration: 1.5 }}
           className="text-yellow-400 text-6xl md:text-8xl font-bold absolute bottom-20"
         >
-          Web Developer
+          Business Analyst
         </motion.h1>
       </section>
 
@@ -92,9 +92,10 @@ function App() {
           transition={{ duration: 1 }}
           className="max-w-3xl text-lg leading-8 text-gray-300 text-center"
         >
-          I’m a web developer with a strong interest in building clean,
-          responsive, and user-friendly web applications. I enjoy turning ideas
-          and requirements into working solutions using modern web technologies.
+          I am a Business Analyst with a technical background, focused on 
+          translating business needs into clear, actionable requirements. 
+          I work closely with stakeholders and development teams to support 
+          the delivery of user-focused solutions.
         </motion.p>
 
         {/* Button */}
@@ -189,24 +190,20 @@ function App() {
         <div className="max-w-4xl mx-auto space-y-12">
           {[
             {
-              category: "Frontend",
-              skills: ["Html", "CSS", "React", "Tailwind CSS"]
+              category: "Requirements & Documentation",
+              skills: ["Use Cases", "User Stories", "BRD", "FRD", "Process Flows"]
             },
             {
-              category: "Backend",
-              skills: ["C#", ".NET", "Node.js"]
+              category: "Data Analysis",
+              skills: ["SQL", "Excel (advanced)", "Power BI", "Google Analytics"]
             },
             {
-              category: "Databases",
-              skills: ["MySQL", "MongoDB"]
+              category: "Modeling & Diagramming",
+              skills: ["UML", " Draw.io", "Lucidchart", "Figma"]
             },
             {
-              category: "Tools & Version Controll",
-              skills: ["Git", "GitHub", "Figma", "Canva"]
-            },
-            {
-              category: "Concepts",
-              skills: ["OOP"]
+              category: "Project Management / Agile Tools",
+              skills: ["Jira", "Confluence", "Notion"]
             }
           ].map((group, index) => (
             <motion.div
